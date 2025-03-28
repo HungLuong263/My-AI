@@ -1,0 +1,13 @@
+train: /Users/hung/yolov5/Cars Dataset/train  # Đường dẫn đến thư mục ảnh huấn luyện
+val: /Users/hung/yolov5/Cars Dataset/Val    # Đường dẫn đến thư mục ảnh kiểm tra
+test: /Users/hung/yolov5/test
+nc: 1  # Số lượng lớp
+nc: 43
+names: ['delivery', 'jeep-black', 'jeep-blue', 'jeep-green', 'jeep-grey', 'jeep-red', 'jeep-silver', 'jeep-tan', 'jeep-white', 'mini-van-black', 'mini-van-blue', 'mini-van-green', 'mini-van-grey', 'mini-van-red', 'mini-van-silver', 'mini-van-tan', 'mini-van-white', 'motorcyle', 'pickup-black', 'pickup-blue', 'pickup-green', 'pickup-grey', 'pickup-red', 'pickup-silver', 'pickup-tan', 'pickup-white', 'sedan-black', 'sedan-blue', 'sedan-green', 'sedan-grey', 'sedan-red', 'sedan-silver', 'sedan-tan', 'sedan-white', 'semi', 'suv-black', 'suv-blue', 'suv-green', 'suv-grey', 'suv-red', 'suv-silver', 'suv-tan', 'suv-white']
+
+roboflow:
+  workspace: hsmith
+  project: fpcs-exit-11
+  version: 3
+  license: Private
+  url: https://universe.roboflow.com/hsmith/fpcs-exit-11/dataset/3
