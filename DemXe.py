@@ -46,7 +46,8 @@ while cap.isOpened():
         
         # Kiểm tra nếu lớp là xe hơi (giả sử lớp 0 là xe hơi)
         if int(cls) == 0:
-            mid_y = (y1 + y2) / 2  # Trung điểm của box theo trục y
+            mid_y = (y1 + y2) / 2 
+            mid_x = (x1 + x2) / 2  # Trung điểm của box theo trục y
             #car_id = f"{int(x1)}_{int(y1)}"  # ID giả lập dựa trên vị trí để phân biệt từng xe
             car_id = f"{int(x1)}_{int(y1)}_{int(x2)}_{int(y2)}"
 
